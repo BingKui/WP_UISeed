@@ -10,7 +10,7 @@
 	var srcPref = ["./json/", "http://"];
 	var dataArray = [{
 		//信息
-		"info": srcPref[conf] + "info.json"
+		"index_content": srcPref[conf] + "index_content.json"
 	}, {
 		//登录
 		"history": srcPref[conf] + "history.json?1=1"
@@ -23,7 +23,7 @@ seajs.config({
 	base: './lib/',
 	//别名
 	alias: {
-		'jquery': 'jquery/2.1.4/jquery.js',
+		'jquery': 'jquery/2.2.1/jquery.js',
 		'handlebars': 'handlebars/3.0.3/handlebars.js'
 	},
 	//预加载
